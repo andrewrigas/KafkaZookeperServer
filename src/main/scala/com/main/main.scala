@@ -7,11 +7,5 @@ import scala.concurrent.ExecutionContext
 import ExecutionContext.Implicits.global
 
 object main extends App{
-
-  Future {
-    KafkaZooKeeperExecution.executeKafkaZookeeper
-  }
-
-
-
+  KafkaZooKeeperExecution.executeKafkaZookeeper
 }
