@@ -1,6 +1,6 @@
 package com.main
 
-import kafka.kafkazookeeperconfig.KafkaZooKeeperExecution
+import com.Execution.KafkaZooKeeperExecution
 
 import scala.concurrent.Future
 import scala.concurrent.ExecutionContext
@@ -8,4 +8,5 @@ import ExecutionContext.Implicits.global
 
 object main extends App{
   KafkaZooKeeperExecution.executeKafkaZookeeper
+
 }
