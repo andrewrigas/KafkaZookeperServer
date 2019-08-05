@@ -30,7 +30,7 @@ object KafkaZooKeeperExecution {
 
     //Start Up Kafka
     kafkaServer.startup()
-    //Join ZookeeperThread with
+    //Join ZookeeperThread with kafka Server Thread
     zooKeeperThread.join()
     //KafkaServer shutdown
     //kafkaServer.shutdown()
