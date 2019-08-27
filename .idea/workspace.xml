@@ -2,28 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e8e3fa5-27f7-40e4-9a74-d9e566178d18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/KafkaStreaming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/KafkaStreaming.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/KafkaStreaming-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/KafkaStreaming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/KafkaCluster.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/main/main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/main/main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/test.sc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/META-INF/KafkaStreaming.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/main/main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/main/main$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/main/main$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/main/main$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/test.sc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/kafkastreaming$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/kafkastreaming$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/kafkastreaming$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/kafkastreaming$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-kafkastreaming$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$000dc6c4ab547336bc03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$000dc6c4ab547336bc03.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$000dc6c4ab547336bc03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.sbt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KafkaProducerConsumer/build.sbt" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,7 +82,7 @@
   <component name="RunManager" selected="Application.main">
     <configuration name="KafkaServer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.kafka.server.KafkaServer" />
-      <module name="KafkaStreaming" />
+      <module name="KafkaCluster" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kafka.server.*" />
@@ -103,7 +95,7 @@
     </configuration>
     <configuration name="KafkaZooKeeperExecution" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="kafka.kafkazookeeperconfig.KafkaZooKeeperExecution" />
-      <module name="KafkaStreaming" />
+      <module name="KafkaCluster" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="kafka.kafkazookeeperconfig.*" />
@@ -116,7 +108,7 @@
     </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.main.main" />
-      <module name="KafkaStreaming" />
+      <module name="KafkaCluster" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.main.*" />
@@ -141,7 +133,7 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="KafkaStreaming" />
+              <option name="name" value="KafkaCluster" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -152,7 +144,7 @@
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="KafkaStreaming-build" />
+                <option name="name" value="KafkaCluster-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
@@ -162,8 +154,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3129550117831" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="2460360187" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3141170220" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
       </map>
     </option>

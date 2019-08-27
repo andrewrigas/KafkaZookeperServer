@@ -1,4 +1,4 @@
-name := "KafkaStreaming"
+name := "KafkaCluster"
 
 version := "0.1"
 
