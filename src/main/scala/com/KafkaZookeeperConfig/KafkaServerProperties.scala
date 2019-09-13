@@ -1,0 +1,33 @@
+package com.KafkaZookeeperConfig
+
+import java.nio.file.Files
+
+class KafkaServerProperties(brokerId: String,kafkaLog: String,port: String) {
+  //Kafka
+  val kafkaProperties = Map(
+    KafkaServerConfig.ZOOKEEPER_CONNECT_CONFIG -> KafkaServerConfig.ZOOKEEPER_CONNECT_VALUE,
+    KafkaServerConfig.BROKER_ID_CONFIG -> brokerId,
+    KafkaServerConfig.DELETE_TOPIC_ENABLE_CONFIG -> KafkaServerConfig.DELETE_TOPIC_ENABLE_VALUE,
+    KafkaServerConfig.LOG_DIR_CONFIG -> Files.createTempDirectory(kafkaLog).toString,
+    KafkaServerConfig.PORT_CONFIG -> port,
+    KafkaServerConfig.ZOOKEEPER_CONNECTION_TIMEOUT_MS_CONFIG -> KafkaServerConfig.ZOOKEEPER_CONNECTION_TIMEOUT_MS_VALUE,
+    KafkaServerConfig.NUM_NETWORK_THREADS_CONFIG -> KafkaServerConfig.NUM_NETWORK_THREADS_VALUE,
+    KafkaServerConfig.NUM_IO_THREADS_CONFIG -> KafkaServerConfig.NUM_IO_THREADS_VALUE,
+    KafkaServerConfig.SOCKET_SEND_BUFFER_BYTES_CONFIG -> KafkaServerConfig.SOCKET_SEND_BUFFER_BYTES_VALUE,
+    KafkaServerConfig.SOCKET_RECEIVE_BUFFER_BYTES_CONFIG-> KafkaServerConfig.SOCKET_RECEIVE_BUFFER_BYTES_VALUE,
+    KafkaServerConfig.SOCKET_REQUEST_MAX_BYTES_CONFIG-> KafkaServerConfig.SOCKET_REQUEST_MAX_BYTES_VALUE,
+    KafkaServerConfig.NUM_NETWORK_THREADS_CONFIG -> KafkaServerConfig.NUM_NETWORK_THREADS_VALUE,
+    KafkaServerConfig.NUM_PARTITIONS_CONFIG-> KafkaServerConfig.NUM_PARTITIONS_VALUE,
+    KafkaServerConfig.NUM_RECOVERY_THREADS_PER_DATA_DIR_CONFIG -> KafkaServerConfig.NUM_RECOVERY_THREADS_PER_DATA_DIR_VALUE,
+    KafkaServerConfig.OFFSETS_TOPIC_REPLICATION_FACTOR_CONFIG -> KafkaServerConfig.OFFSETS_TOPIC_REPLICATION_FACTOR_VALUE,
+    KafkaServerConfig.TRANSACTION_STATE_LOG_REPLICATION_FACTOR_CONFIG -> KafkaServerConfig.TRANSACTION_STATE_LOG_REPLICATION_FACTOR_VALUE,
+    KafkaServerConfig.TRANSACTION_STATE_LOG_MIN_ISR_CONFIG -> KafkaServerConfig.TRANSACTION_STATE_LOG_MIN_ISR_VALUE,
+    KafkaServerConfig.LOG_FLUSH_INTERVAL_MESSAGES_CONFIG -> KafkaServerConfig.LOG_FLUSH_INTERVAL_MESSAGES_VALUE,
+    KafkaServerConfig.LOG_FLUSH_INTERVAL_MS_CONFIG -> KafkaServerConfig.LOG_FLUSH_INTERVAL_MS_VALUE,
+    KafkaServerConfig.LOG_RETENTION_HOURS_CONFIG -> KafkaServerConfig.LOG_RETENTION_HOURS_VALUE,
+    KafkaServerConfig.LOG_RETENTION_BYTES_CONFIG -> KafkaServerConfig.LOG_RETENTION_BYTES_VALUE,
+    KafkaServerConfig.LOG_SEGMENT_BYTES_CONFIG -> KafkaServerConfig.LOG_SEGMENT_BYTES_VALUE,
+    KafkaServerConfig.LOG_RETENTION_CHECK_INTERVAL_MS_CONFIG -> KafkaServerConfig.LOG_RETENTION_CHECK_INTERVAL_MS_VALUE
+    //KafkaServerConfig.GROUP_INITIAL_REBALANCE_DELAY_MS_CONFIG -> KafkaServerConfig.GROUP_INITIAL_REBALANCE_DELAY_MS_VALUE
+  )
+}

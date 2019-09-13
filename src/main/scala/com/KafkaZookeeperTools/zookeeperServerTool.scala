@@ -5,7 +5,7 @@ import java.nio.file.Files
 import org.apache.zookeeper.server.{ServerConfig, ZooKeeperServerMain}
 import org.apache.zookeeper.server.quorum.QuorumPeerConfig
 
-class zookeeperServerTool(port: Int, dataLogDirectory: String, dataDirectory: String) {
+class zookeeperServerTool(port: Int, dataLogDirectory: String, dataDirectory: String, maxClients: Int) {
 
   implicit val zooKeeperConfig: ServerConfig = new ServerConfig()
   zooKeeperConfig.readFrom(createQuorumConfiguration)
@@ -20,16 +20,20 @@ class zookeeperServerTool(port: Int, dataLogDirectory: String, dataDirectory: St
   object ZooKeeperServer extends StoppableZooKeeperServerMain
 
   //QuorumConfiguration Function
-  private def createQuorumConfiguration= {
-      new QuorumPeerConfig {
+  private def createQuorumConfiguration = {
+    new QuorumPeerConfig {
       override def getClientPortAddress: InetSocketAddress = new InetSocketAddress(port)
+
       override def getDataLogDir: String = Files.createTempDirectory(dataLogDirectory).toString
+
       override def getDataDir: String = Files.createTempDirectory(dataDirectory).toString
+
+      override def getMaxClientCnxns: Int = maxClients
     }
   }
 
   private def createZookeeperThread(implicit serverConfiq: ServerConfig) = {
-    new Thread{
+    new Thread {
       override def run(): Unit = ZooKeeperServer.runFromConfig(serverConfiq)
     }
   }
